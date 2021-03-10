@@ -1,0 +1,76 @@
+:root {
+  --blanco:#F7F4DF;
+  --fusicia: #ff1081;
+  --fondo:#c3c9ca;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 38%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 3rem;
+  font-family: "Shippori Mincho B1", serif;
+  position: relative;
+background-color:var(--fondo);
+}
+
+.foto {
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+  position: relative;
+}
+.conten_foto {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor {
+  width: 40rem;
+  margin-left: 2rem;
+}
+
+.nav_principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav_principal a {
+  text-decoration: none;
+  color: var(--blanco);
+  
+  
+}
+
+h1 {
+  color: var(--blanco);
+  text-align: center;
+  font-size: 12rem;
+}
+
+span {
+  color: var(--fusicia);
+}
+
+
+.columna{
+    width: 80rem;
+    height: 30rem;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--blanco);
+    background-color: var(--blanco);
+    margin: 55px 55px;
+    box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2);
+}
